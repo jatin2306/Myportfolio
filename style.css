@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: grey;
+}
+
+nav {
+  background-color: #382D37;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+}
+
+nav ul {
+  float: right;
+  margin-right: 55px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  padding: 7px 13px;
+}
+
+nav ul li {
+  line-height: 90px;
+  display: inline-block;
+  margin: 0 5px;
+}
+nav li:hover .li1 {
+  background-color: #ff9da5;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #ff9da5;
+}
+
+nav li:hover .li2 {
+  background-color: chocolate;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px chocolate;
+}
+
+nav li:hover .li3 {
+  background-color: rgb(62, 177, 223);
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(62, 177, 223);
+}
+
+nav li:hover .li4 {
+  font-weight: bold;
+  background-color: teal;
+  border-radius: 10px;
+  color: white;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px teal;
+}
+
+nav li:hover .li5 {
+  background-color: rgb(33, 30, 190);
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+label.logo a{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+.checkbutton {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+.mycheckbox {
+  display: none;
+}
+section{
+  width: 100%;
+  height: 100vh;
+}
+section{
+  width: 100%;
+  height:100vw;
+}
