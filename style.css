@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+div,
+section,
+ul,
+li,
+a,
+span {
+    box-sizing: border-box;
+}
 nav {
   background-color: #382D37;
   height: 80px;
@@ -78,9 +86,11 @@ label.logo a{
   color: white;
   font-size:30px;
   line-height: 80px;
-  padding: 0 20px;
+  padding: 0 15px;
   font-weight: bold;
   text-decoration: none;
+font-family: cursive;
+
 }
 
 .checkbutton {
@@ -136,3 +146,69 @@ label.logo a{
 	font-size:20px;
 	background: rgba(0, 0, 0, 0.08);
 }
+section{
+ min-width:100% ;
+min-height: 100vh;
+font-family: cursive;
+}
+#home{
+  background-color: #382D37;
+}
+.boxes{
+ display: flex;
+ flex-wrap: wrap; 
+ padding-top:85px;
+ width: 100%;
+}
+.box{
+  flex: 1;
+}
+.box-1{
+  color: white;
+  font-size: 25px;
+  padding:80px 0 0 50px;
+  overflow: hidden;
+}
+.box-2{
+  text-align: center;
+  padding: 20px;
+}
+.myimg{
+  width:68%;
+  filter:drop-shadow(5px 5px 10px white);
+} 
+.line-1 {
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  font-size: 20px;
+  white-space: nowrap;
+  transform: translateY(30%);
+  color: aqua;
+  font-size:31px;
+  overflow: hidden;
+}   
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+      width: 0;
+  }
+
+  to {
+      width:19em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+      border-right-color: rgba(255, 255, 255, .75);
+  }
+
+  to {
+      border-right-color: transparent;
+  }
+}
+
+  
